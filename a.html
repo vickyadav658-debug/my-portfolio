@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vicky Kumar's web developer portfolio">
+  <title>Vicky Kumar | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar container">
+      <a href="#home" class="logo">Vicky<span>.</span></a>
+
+      <button class="menu-btn" id="menuBtn"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Vicky Kumar</span></h1>
+        <h2>Aspiring Web Developer</h2>
+        <p>
+          I am a Computer Science Engineering student who enjoys
+          building websites and learning new technologies.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar">VK</div>
+        <h3>Vicky Kumar</h3>
+        <p>CSE Student | Web Development</p>
+        <p>HTML · CSS · JavaScript</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="panel">
+        <p>
+          I am pursuing B.Tech in Computer Science and Engineering
+          at Government Engineering College Gopalganj, Bihar
+          (2023–2027).
+        </p>
+        <p>
+          I am developing my skills in HTML, CSS and JavaScript.
+          My goal is to build responsive, user-friendly websites
+          and gain practical experience through an internship.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <p class="eyebrow">WHAT I AM LEARNING</p>
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C</div>
+        <div class="skill">C++</div>
+        <div class="skill">Python</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Git & GitHub</div>
+      </div>
+      <p class="note">
+        Note: Keep only the skills you can explain in an interview.
+      </p>
+    </section>
+
+    <section id="projects" class="section container">
+      <p class="eyebrow">MY WORK</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">01</div>
+          <h3>TrueShorts — News Verification</h3>
+          <p>
+            A news verification application concept featuring
+            claim checking, source access and authenticity scoring.
+          </p>
+          <p class="tech">Flutter · Dart · APIs</p>
+          <a href="#contact" class="project-link">
+            Project Details →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">02</div>
+          <h3>Food Ordering App</h3>
+          <p>
+            A food ordering application with menu categories,
+            cart management, price calculation and order tracking.
+          </p>
+          <p class="tech">Android · Firebase</p>
+          <a href="#contact" class="project-link">
+            Project Details →
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">03</div>
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            A responsive personal website to showcase my skills,
+            education, projects and contact information.
+          </p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+          <a href="#home" class="project-link">
+            View Portfolio →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <p class="eyebrow">MY BACKGROUND</p>
+      <h2 class="section-title">Education & Experience</h2>
+      <div class="panel">
+        <h3>B.Tech — Computer Science and Engineering</h3>
+        <p>Government Engineering College Gopalganj, Bihar</p>
+        <p>Session: 2023–2027</p>
+        <hr>
+        <h3>Internship — YBI Foundation</h3>
+        <p>List your actual internship role and training details here.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="panel contact-panel">
+        <p>Interested in working together or offering an internship?</p>
+        <p>
+          Email:
+          <a href="mailto:YOUR_EMAIL@example.com">
+            YOUR_EMAIL@example.com
+          </a>
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/YOUR_USERNAME"
+             target="_blank" rel="noopener noreferrer">
+            View my GitHub
+          </a>
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/"
+             target="_blank" rel="noopener noreferrer">
+            My LinkedIn
+          </a>
+        </p>
+        <a href="mailto:YOUR_EMAIL@example.com" class="btn">
+          Send Me an Email
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Vicky Kumar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
