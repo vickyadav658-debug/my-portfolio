@@ -185,7 +185,7 @@ header {
 }
 
 .hero-card p {
-  color: var(--muted);
+  color:var(--muted);
 }
 
 /* Common sections */
